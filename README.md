@@ -1,31 +1,23 @@
-# Basic React Starter
+# Text to Speech Demo
 
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
+This is a simple text to speech demo built with React. It uses the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) to convert text to speech.
 
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+## Features
 
-## Getting started
+- Convert text to speech
+- Adjust pitch and rate
+- Powered by React
 
-- `clone` this application
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `react-basic-starter`
-  _Hint:_ In the terminal, type `mv react-basic-starter new-name-of-your-app`
-- `cd` into the app
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
+## How to use
 
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+1. Clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm start` to start the development server
+4. Open the app in your browser
 
-If you would like to connect this afterwards to your personal Github then:
+## Credits
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
+This project was inspired by the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) and the [MDN Web Speech API example](https://github.com/mdn/dom-examples/blob/main/web-speech-api/speak-easy-synthesis/script.js).
 
-You have now connected your project to the repo.
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+[Take a Look at the Code](src/App.jsx)
