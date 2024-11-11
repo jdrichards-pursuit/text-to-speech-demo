@@ -12,7 +12,7 @@ This is a simple text to speech demo built with React. It uses the [Web Speech A
 
 1. Clone the repository
 2. Run `npm install` to install the dependencies
-3. Run `npm start` to start the development server
+3. Run `npm run dev` to start the development server
 4. Open the app in your browser
 
 ## Credits
